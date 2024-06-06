@@ -28,7 +28,7 @@ Looking ahead, I am eager to leverage my skills and experience to contribute to 
   "Employment": "Walgreens",
   "Role": "Customer Service Associate",
   "EmploymentText": "Use this to add some narrative to your employment section",
-  "Skills": ["C++", " JavaScript", " Node", " CSS"," HTML", "],
+  "Skills": ["C++", " JavaScript", " Node", " CSS"," HTML"],
   "SkillsText": "Use this to add some narrative to your skills section",
   "Resume": "student-resume.pdf"  
 },
