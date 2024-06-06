@@ -7,22 +7,22 @@
   "AboutText": "Hi, I am Ian. I am a passionate Information Systems major with a keen interest in coding, data analysis, and system optimization. Currently, I am pursuing my undergraduate degree at Seattle Pacific University. I am dedicated to expanding my knowledge and skills in various areas of technology, with a particular focus on programming and practical application development. I enjoy tackling challenging coding projects and thrive in environments where I can contribute my expertise and learn from my peers. During my studies, I have worked on several impactful projects, including my Eagle Scout project, which solidified my commitment to a career that combines my love for technology and problem-solving. Beyond the classroom, I actively engage in activities related to technology and the outdoors, finding inspiration in camping and skiing. These experiences have taught me the importance of adaptability, perseverance, and teamwork—values I carry into my professional life. Looking ahead, I am eager to leverage my skills and experience to contribute to innovative projects in Information Systems. I aspire to collaborate with like-minded individuals and organizations that value creativity, continuous learning, and positive impact. Let's connect and explore the possibilities together!"
 },
 "Contact": {
-  "EMail": "zendejor@spu.edu",
-  "Phone": "(206) 555-5555",
-  "Portfolio": "https://www.github.com",
-  "LinkedIn": "https://linkedin.com",
-  "GitHub": "https://www.github.com"
+  "EMail": "wilsoni@spu.edu",
+  "Phone": "",
+  "Portfolio": "https://wilsoni02.github.io/index.html",
+  "LinkedIn": "https://www.linkedin.com/in/ian-wilson-2020/",
+  "GitHub": "https://github.com/wilsoni02"
 },
 "Experience": {
-  "ExperienceText": "Use this area to explain how you got to where you are and what you are currently doing now.<br><br>This is a good spot to talk yourself up.",
+  "ExperienceText": "",
   "School": "Seattle Pacific University",
-  "Major": "Computer Science",
-  "Graduation": "June 2023",
+  "Major": "Information Systems",
+  "Graduation": "June 2025",
   "EducationText": "Use this to add some narrative to your education section",
-  "Employment": "Seattle Pacific University",
-  "Role": "Computer Science Lab Assistant",
+  "Employment": "Walgreens",
+  "Role": "Customer Service Associate",
   "EmploymentText": "Use this to add some narrative to your employment section",
-  "Skills": ["C++", " JavaScript", " Node", " CSS"," HTML"],
+  "Skills": ["C++", " JavaScript", " Node", " CSS"," HTML", "],
   "SkillsText": "Use this to add some narrative to your skills section",
   "Resume": "student-resume.pdf"  
 },
