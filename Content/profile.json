@@ -1,10 +1,16 @@
 {
 "About": {
-  "Name": "Robert J Zendejo",
-  "Currently": "Computer Science Student",
+  "Name": "Ian K. Wilson",
+  "Currently": "Information Systems Student",
   "Headshot": "student-portrait.png",
   "Thumbnail": "student-logo.webp",
-  "AboutText": "Hi, I am Bob Zendejo. I am a passionate computer science student with a keen interest in software development and programming. Currently, I am pursuing my undergraduate degree at Seattle Pacific University. I am dedicated to expanding my knowledge and skills in various areas of computer science, with a particular focus on C++ programming.<br><br>I enjoy tackling challenging programming projects and I thrive in collaborative environments where I can contribute my expertise and learn from my peers.<br><br>Beyond the classroom, I actively engage in extracurricular activities related to computer science, including hackathons, coding competitions, and open-source contributions. I believe in the importance of continuous learning and seek out opportunities to explore new technologies and methodologies."
+  "AboutText": "Hi, I am Ian. I am a passionate Information Systems major with a keen interest in coding, data analysis, and system optimization. Currently, I am pursuing my undergraduate degree at Seattle Pacific University. I am dedicated to expanding my knowledge and skills in various areas of technology, with a particular focus on programming and practical application development.
+
+I enjoy tackling challenging coding projects and thrive in environments where I can contribute my expertise and learn from my peers. During my studies, I have worked on several impactful projects, including my Eagle Scout project, which solidified my commitment to a career that combines my love for technology and problem-solving.
+
+Beyond the classroom, I actively engage in activities related to technology and the outdoors, finding inspiration in camping and skiing. These experiences have taught me the importance of adaptability, perseverance, and teamwork—values I carry into my professional life.
+
+Looking ahead, I am eager to leverage my skills and experience to contribute to innovative projects in Information Systems. I aspire to collaborate with like-minded individuals and organizations that value creativity, continuous learning, and positive impact. Let's connect and explore the possibilities together!"
 },
 "Contact": {
   "EMail": "zendejor@spu.edu",
