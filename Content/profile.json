@@ -8,7 +8,7 @@
 },
 "Contact": {
   "EMail": "wilsoni@spu.edu",
-  "Phone": "(360)-619-8818",
+  "Phone": "",
   "Portfolio": "https://wilsoni02.github.io/index.html",
   "LinkedIn": "https://www.linkedin.com/in/ian-wilson-2020/",
   "GitHub": "https://github.com/wilsoni02"
@@ -21,7 +21,7 @@
   "EducationText": "Information System's Major with a Minor in History. President of the Centurions Club.",
   "Employment": "Walgreens",
   "Role": "Customer Service Associate",
-  "EmploymentText": "Customer Service Associate at Walgreems",
+  "EmploymentText": "Customer Service Associate at Walgreens",
   "Skills": ["C++", " JavaScript"," CSS"," HTML", "System Designing"],
   "SkillsText": "Relevant knowledge to coding in C++ and web designing using JavaScript, CSS, and HTML.",
   "Resume": "student-resume.pdf"  
