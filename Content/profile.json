@@ -1,57 +1,73 @@
 {
-"About": {
-  "Name": "Ian K. Wilson",
-  "Currently": "Information Systems Student",
-  "Headshot": "student-portrait.jpg",
-  "Thumbnail": "student-logo.png",
-  "AboutText": "Hi, I am Ian. I am a passionate Information Systems major with a keen interest in coding, data analysis, and system optimization. Currently, I am pursuing my undergraduate degree at Seattle Pacific University. I am dedicated to expanding my knowledge and skills in various areas of technology, with a particular focus on programming and practical application development. I enjoy tackling challenging coding projects and thrive in environments where I can contribute my expertise and learn from my peers. During my studies, I have worked on several impactful projects, including my Eagle Scout project, which solidified my commitment to a career that combines my love for technology and problem-solving. Beyond the classroom, I actively engage in activities related to technology and the outdoors, finding inspiration in camping and skiing. These experiences have taught me the importance of adaptability, perseverance, and teamwork—values I carry into my professional life. Looking ahead, I am eager to leverage my skills and experience to contribute to innovative projects in Information Systems. I aspire to collaborate with like-minded individuals and organizations that value creativity, continuous learning, and positive impact. Let's connect and explore the possibilities together!"
-},
-"Contact": {
-  "EMail": "wilsoni@spu.edu",
-  "Phone": "",
-  "Portfolio": "https://wilsoni02.github.io/index.html",
-  "LinkedIn": "https://www.linkedin.com/in/ian-wilson-2020/",
-  "GitHub": "https://github.com/wilsoni02"
-},
-"Experience": {
-  "ExperienceText": "",
-  "School": "Seattle Pacific University",
-  "Major": "Information Systems",
-  "Graduation": "June 2025",
-  "EducationText": "Information System's Major with a Minor in History. President of the Centurions Club.",
-  "Employment": "Walgreens",
-  "Role": "Customer Service Associate",
-  "EmploymentText": "Customer Service Associate at Walgreens",
-  "Skills": ["C++", " JavaScript"," CSS"," HTML", "System Designing"],
-  "SkillsText": "Relevant knowledge to coding in C++ and web designing using JavaScript, CSS, and HTML.",
-  "Resume": "student-resume.pdf"  
-},
-"Project1": {
-    "Title": "Task-Manager-Project",
-    "Desc": " A full-stack Task Manager web app built with HTML, CSS, JavaScript, Node.js, Express, and Mongoose, featuring real-time updates using Socket.io. It supports task CRUD operations and stores data in MongoDB Atlas, with a focus on intuitive UI and a efficient functionality.",
-    "GitHubRepo": "https://github.com/wilsoni02/Task-Manager-Project",
-    "MainImage": "P1Main.png",
-    "DetailImages": ["P1Detail1.png","P1Detail2.png","P1Detail3.png"]
+  "About": {
+    "Name": "Ian K. Wilson",
+    "Currently": "Information Systems Student",
+    "Headshot": "student-portrait.jpg",
+    "Thumbnail": "student-logo.png",
+    "Major": "Information Systems",
+    "Graduation": "June 2025",
+    "AboutText": "I am an Information Systems major at Seattle Pacific University focused on technology troubleshooting and IT networking. With hands-on experience fixing devices and building custom PCs, I've become the go-to “IT guy” among my peers. My academic projects—including my Eagle Scout project—underscore my passion for solving tech challenges. Outside of tech, I enjoy camping and skiing, which sharpen my adaptability and teamwork. I’m excited to apply my skills to innovative IT projects and collaborate with like-minded professionals."
+  },
+  "Contact": {
+    "EMail": "wilsoni@spu.edu",
+    "Phone": "",
+    "Portfolio": "https://wilsoni02.github.io/index.html",
+    "LinkedIn": "https://www.linkedin.com/in/ian-wilson-2020/",
+    "GitHub": "https://github.com/wilsoni02"
+  },
+  "Experience": {
+    "ExperienceText": "A summary of my professional experience and achievements.",
+    "School": "Seattle Pacific University",
+    "Major": "Information Systems",
+    "Graduation": "June 2025",
+    "EducationText": "Information Systems Major with a Minor in History. President of the Centurions Club.",
+    "Employment": "Walgreens",
+    "Role": "Customer Service Associate",
+    "EmploymentText": "Customer Service Associate at Walgreens, responsible for supporting customer needs and operational tasks.",
+    "Skills": ["CyberSecurity", " JavaScript", " CSS", " HTML", " Flutter & Dart", " Computer Networking"],
+    "SkillsText": "Proficient in cybersecurity protocols, modern web development using JavaScript, CSS, and HTML, mobile app development with Flutter & Dart, and the fundamentals of computer networking.",
+    "Resume": "student-resume.pdf",
+    "Internship": {
+      "Company": "CompTIA Security+",
+      "Role": "Certification Candidate",
+      "Description": "Currently pursuing the CompTIA Security+ certification as an internship alternative. This process involves hands-on training in cybersecurity principles, risk management, and threat analysis, providing real-world skills and industry-relevant experience."
+    }
+
+  },
+  "Project1": {
+    "Title": "WinterArk",
+    "Desc": "A mobile app for Android version 15.0/Vanilla Ice Cream, tailored to typical gym goers. They are able to log and track workouts, send and receive friend request and message with them one-on-one!",
+    "GitHubRepo": "https://github.com/WinterArk",
+    "MainImage": "P4Main.png",
+    "DetailImages": [],
+    "ProjectType": "Team",
+    "TeamRole": "Librarian, Scrum Master, Fullstack Development"
   },
   "Project2": {
     "Title": "Node-Project",
-    "Desc": "A Node.js and Express-powered web application for task/list management. Features a responsive client interface for adding, editing, and deleting tasks, with a focus on non-blocking, error-managed server interactions.",
+    "Desc": "A Node.js and Express-powered web application for task/list management. Features a responsive client interface for adding, editing, and deleting tasks, with an emphasis on non-blocking server interactions and error management.",
     "GitHubRepo": "https://github.com/wilsoni02/Node-Project",
     "MainImage": "P2Main.png",
-    "DetailImages": ["P2Detail1.png","P2Detail2.png","P2Detail3.png","P2Detail4.png"]
+    "DetailImages": ["P2Detail1.png", "P2Detail2.png", "P2Detail3.png", "P2Detail4.png"],
+    "ProjectType": "Individual",
+    "TeamRole": ""
   },
   "Project3": {
     "Title": "HTTP-Project",
-    "Desc": "A versatile JavaScript front-end library for handling HTTP requests (GET, POST, PUT, DELETE, PATCH). Features async operations, error handling, and a user-friendly UI for testing API responses. Utilizes Fetch API for efficient, non-blocking requests and response handling.",
+    "Desc": "A versatile JavaScript front-end library for handling HTTP requests (GET, POST, PUT, DELETE, PATCH). Features async operations, robust error handling, and a user-friendly UI for testing API responses using the Fetch API.",
     "GitHubRepo": "https://github.com/wilsoni02/HTTP-Project",
     "MainImage": "P3Main.png",
-    "DetailImages": []
+    "DetailImages": [],
+    "ProjectType": "Individual",
+    "TeamRole": ""
   },
   "Project4": {
-    "Title": "",
-    "Desc": "",
-    "GitHubRepo": "",
-    "MainImage": "",
-    "DetailImages": []
+    "Title": "Task-Manager-Project",
+    "Desc": "A full-stack Task Manager web app built with HTML, CSS, JavaScript, Node.js, Express, and Mongoose, featuring real-time updates using Socket.io. Supports task CRUD operations and stores data in MongoDB Atlas, with a focus on intuitive UI and efficient functionality.",
+    "GitHubRepo": "https://github.com/wilsoni02/Task-Manager-Project",
+    "MainImage": "P1Main.png",
+    "DetailImages": ["P1Detail1.png", "P1Detail2.png", "P1Detail3.png"],
+    "ProjectType": "Individual",
+    "TeamRole": ""
   }
 }

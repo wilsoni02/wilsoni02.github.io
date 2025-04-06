@@ -3,69 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
+    <title>Experience - My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./Styles/style.css">
 </head>
 <body>
-    <div>
-        <nav id="menu">
-            <div>
-                <div class="self-photo">
-                    <a href="index.html">
-                        <img id="pfThumbnail" src="" alt="Mini Me">
-                    </a>
-                </div>
-                <ul class="menu-list">
-                    <a href="index.html">
-                        <li>About</li>
-                    </a>
-                    <a href="projects.html">
-                        <li>Projects</li>
-                    </a>
-                    <a href="experience.html">
-                        <li>Experience</li>
-                    </a>
-                </ul>
-            </div>
-            <div class="icons">
-                <a id="pfLinkedIn" href="" target="_blank" rel="noopener noreferrer">
-                    <img src="./Icons/In-White-40@2x.png">
-                </a>
-                <a id="pfGitHub" href="" target="_blank" rel="noopener noreferrer">
-                    <img src="./Icons/github-mark-white.png" alt="">
-                </a>
-            </div>
-        </nav>
+<nav id="menu">
+    <div class="nav-top">
+        <div class="self-photo">
+            <a href="index.html">
+                <img id="pfThumbnail" src="" alt="Profile Thumbnail">
+            </a>
+        </div>
+        <ul class="menu-list">
+            <a href="index.html"><li>About</li></a>
+            <a href="projects.html"><li>Projects</li></a>
+            <a href="experience.html"><li>Experience</li></a>
+        </ul>
     </div>
-    <div class="main-section">
-        <div class="page-title">
-            <h1>Experience</h1>
-        </div>
-        <div id="expResume" class="experience-section">
-            <button id="pfResume">Open Resume...</button>
-        </div>
-        <div class="experience-section" id="experience-info">
-            <p id="pfExpText"></p>
-        </div>
-        <div id="expEdu" class="experience-section">
-            <h2></h2>
-            <p id="pfSchool"></p>
-            <p id="pfMajor"></p>
-            <p id="pfGraduation"></p>
-            <p id="pfEducationText"></p>
-        </div>
-        <div id="expEmp" class="experience-section">
-            <h2></h2>
-            <p id="pfEmployment"></p>
-            <p id="pfRole"></p>
-            <p id="pfEmploymentText"></p>
-        </div>
-        <div id="expSkills" class="experience-section">
-            <h2></h2>
-            <p id="pfSkills"></p>
-            <p id="pfSkillsText"></p>
-        </div>
+    <div class="icons">
+        <a id="pfLinkedIn" href="" target="_blank" rel="noopener noreferrer">
+            <img src="./Icons/In-White-40@2x.png" alt="LinkedIn">
+        </a>
+        <a id="pfGitHub" href="" target="_blank" rel="noopener noreferrer">
+            <img src="./Icons/github-mark-white.png" alt="GitHub">
+        </a>
     </div>
-    <script type="module" src="./Scripts/GetExperience.js"></script>
+</nav>
+
+<div class="main-section">
+    <div class="page-title">
+        <h1>Experience</h1>
+    </div>
+    <div id="expResume" class="experience-section resume-section">
+        <button id="pfResume">Open Resume...</button>
+    </div>
+    <div class="experience-section" id="experience-info">
+        <p id="pfExpText"></p>
+    </div>
+    <div id="expEdu" class="experience-section">
+        <h2>Education</h2>
+        <p id="pfSchool"></p>
+        <p id="pfMajor"></p>
+        <p id="pfGraduation"></p>
+        <p id="pfEducationText"></p>
+    </div>
+    <div id="expEmp" class="experience-section">
+        <h2>Employment</h2>
+        <p id="pfEmployment"></p>
+        <p id="pfRole"></p>
+        <p id="pfEmploymentText"></p>
+    </div>
+    <div id="expInternship" class="experience-section">
+        <h2>Certification & Training</h2>
+        <p id="pfInternshipCompany"></p>
+        <p id="pfInternshipRole"></p>
+        <p id="pfInternshipDesc"></p>
+    </div>
+    <div id="expSkills" class="experience-section">
+        <h2>Skills</h2>
+        <p id="pfSkills"></p>
+        <p id="pfSkillsText"></p>
+    </div>
+</div>
+<script type="module" src="./Scripts/GetExperience.js"></script>
 </body>
 </html>

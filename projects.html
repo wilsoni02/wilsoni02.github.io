@@ -3,45 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
+    <title>Projects - My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./Styles/style.css">
 </head>
 <body>
-    <div>
-        <nav id="menu">
-            <div>
-                <div class="self-photo">
-                    <a href="index.html">
-                        <img id="pfThumbnail" src="" alt="Mini Me">
-                    </a>
-                </div>
-                <ul class="menu-list">
-                    <a href="index.html">
-                        <li>About</li>
-                    </a>
-                    <a href="projects.html">
-                        <li>Projects</li>
-                    </a>
-                    <a href="experience.html">
-                        <li>Experience</li>
-                    </a>
-                </ul>
-            </div>
-            <div class="icons">
-                <a id="pfLinkedIn" href="" target="_blank" rel="noopener noreferrer">
-                    <img src="./Icons/In-White-40@2x.png">
-                </a>
-                <a id="pfGitHub" href="" target="_blank" rel="noopener noreferrer">
-                    <img src="./Icons/github-mark-white.png" alt="">
-                </a>
-            </div>
-        </nav>
-    </div>
-    <!-- This section is unique to the projects area -->
-    <div class="main-section">
-        <div class="page-title">
-            <h1>Projects</h1>
+<nav id="menu">
+    <div class="nav-top">
+        <div class="self-photo">
+            <a href="index.html">
+                <img id="pfThumbnail" src="" alt="Profile Thumbnail">
+            </a>
         </div>
+        <ul class="menu-list">
+            <a href="index.html"><li>About</li></a>
+            <a href="projects.html"><li>Projects</li></a>
+            <a href="experience.html"><li>Experience</li></a>
+        </ul>
+    </div>
+    <div class="icons">
+        <a id="pfLinkedIn" href="" target="_blank" rel="noopener noreferrer">
+            <img src="./Icons/In-White-40@2x.png" alt="LinkedIn">
+        </a>
+        <a id="pfGitHub" href="" target="_blank" rel="noopener noreferrer">
+            <img src="./Icons/github-mark-white.png" alt="GitHub">
+        </a>
+    </div>
+</nav>
+
+<div class="main-section">
+    <div class="page-title">
+        <h1>Projects</h1>
+    </div>
+    <div class="projects-grid">
+        <!-- Project 1 -->
         <div id="project1" class="project">
             <div class="project-image">
                 <img id="pfProject1Img" src="" alt="Project 1">
@@ -50,9 +45,11 @@
             <div class="project-detail">
                 <h2 id="pfProject1Title"></h2>
                 <p id="pfProject1Desc"></p>
+                <p class="project-meta" id="pfProject1Meta"></p>
                 <a href="" target="_blank" id="pfProject1Repo">GitHub Repo</a>
             </div>
         </div>
+        <!-- Project 2 -->
         <div id="project2" class="project">
             <div class="project-image">
                 <img id="pfProject2Img" src="" alt="Project 2">
@@ -61,9 +58,11 @@
             <div class="project-detail">
                 <h2 id="pfProject2Title"></h2>
                 <p id="pfProject2Desc"></p>
+                <p class="project-meta" id="pfProject2Meta"></p>
                 <a href="" target="_blank" id="pfProject2Repo">GitHub Repo</a>
             </div>
         </div>
+        <!-- Project 3 -->
         <div id="project3" class="project">
             <div class="project-image">
                 <img id="pfProject3Img" src="" alt="Project 3">
@@ -72,9 +71,11 @@
             <div class="project-detail">
                 <h2 id="pfProject3Title"></h2>
                 <p id="pfProject3Desc"></p>
+                <p class="project-meta" id="pfProject3Meta"></p>
                 <a href="" target="_blank" id="pfProject3Repo">GitHub Repo</a>
             </div>
         </div>
+        <!-- Project 4 (hidden if not used) -->
         <div id="project4" class="project">
             <div class="project-image">
                 <img id="pfProject4Img" src="" alt="Project 4">
@@ -83,20 +84,21 @@
             <div class="project-detail">
                 <h2 id="pfProject4Title"></h2>
                 <p id="pfProject4Desc"></p>
+                <p class="project-meta" id="pfProject4Meta"></p>
                 <a href="" target="_blank" id="pfProject4Repo">GitHub Repo</a>
             </div>
         </div>
-        <!-- Image Carousel -->
-        <div id="modalPage">
-            <div class="carousel">
-                <p id="XOut">&times;</p>
-                <div id="imgList">
-                </div>
-                <a id="prev">&#10094;</a>
-                <a id="next">&#10095;</a>
-            </div>
-        </div>        
     </div>
-    <script type="module" src="./Scripts/GetProjects.js"></script>
+    <!-- Image Carousel Modal -->
+    <div id="modalPage">
+        <div class="carousel">
+            <p id="XOut">&times;</p>
+            <div id="imgList"></div>
+            <a id="prev">&#10094;</a>
+            <a id="next">&#10095;</a>
+        </div>
+    </div>
+</div>
+<script type="module" src="./Scripts/GetProjects.js"></script>
 </body>
 </html>
