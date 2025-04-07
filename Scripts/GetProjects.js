@@ -17,7 +17,7 @@ function updateHTML(configData) {
   document.querySelector("#pfLinkedIn").href = configData.Contact.LinkedIn;
   document.querySelector("#pfGitHub").href = configData.Contact.GitHub;
 
-  // Project 1
+  // Project 1 - WinterArk
   if (configData.Project1.Title) {
     document.querySelector("#pfProject1Img").src = "Content/".concat(configData.Project1.MainImage);
     document.querySelector("#pfProject1Title").innerHTML = configData.Project1.Title;
@@ -34,6 +34,7 @@ function updateHTML(configData) {
     if (!configData.Project1.GitHubRepo) {
       document.querySelector("#pfProject1Repo").style.display = "none";
     }
+    // Only show "See More..." button if there are detail images
     if (configData.Project1.DetailImages.length < 1) {
       document.querySelector("#openProject1").style.display = "none";
     }
@@ -57,9 +58,8 @@ function updateHTML(configData) {
     if (!configData.Project2.GitHubRepo) {
       document.querySelector("#pfProject2Repo").style.display = "none";
     }
-    if (configData.Project2.DetailImages.length < 1) {
-      document.querySelector("#openProject2").style.display = "none";
-    }
+    // Hide the "See More..." button
+    document.querySelector("#openProject2").style.display = "none";
   } else {
     document.querySelector("#project2").style.display = "none";
   }
@@ -80,9 +80,8 @@ function updateHTML(configData) {
     if (!configData.Project3.GitHubRepo) {
       document.querySelector("#pfProject3Repo").style.display = "none";
     }
-    if (configData.Project3.DetailImages.length < 1) {
-      document.querySelector("#openProject3").style.display = "none";
-    }
+    // Hide the "See More..." button
+    document.querySelector("#openProject3").style.display = "none";
   } else {
     document.querySelector("#project3").style.display = "none";
   }
@@ -103,9 +102,8 @@ function updateHTML(configData) {
     if (!configData.Project4.GitHubRepo) {
       document.querySelector("#pfProject4Repo").style.display = "none";
     }
-    if (configData.Project4.DetailImages.length < 1) {
-      document.querySelector("#openProject4").style.display = "none";
-    }
+    // Hide the "See More..." button
+    document.querySelector("#openProject4").style.display = "none";
   } else {
     document.querySelector("#project4").style.display = "none";
   }
@@ -160,6 +158,7 @@ document.querySelector("#openProject1").onclick = () => {
 }
 
 document.querySelector("#openProject2").onclick = () => {
+  // This function will not be called since the button is hidden.
   addImages(configData.Project2.DetailImages);
   document.querySelector("#modalPage").style.display = "block";
   slideIdx = 1;
@@ -167,6 +166,7 @@ document.querySelector("#openProject2").onclick = () => {
 }
 
 document.querySelector("#openProject3").onclick = () => {
+  // This function will not be called since the button is hidden.
   addImages(configData.Project3.DetailImages);
   document.querySelector("#modalPage").style.display = "block";
   slideIdx = 1;
@@ -174,6 +174,7 @@ document.querySelector("#openProject3").onclick = () => {
 }
 
 document.querySelector("#openProject4").onclick = () => {
+  // This function will not be called since the button is hidden.
   addImages(configData.Project4.DetailImages);
   document.querySelector("#modalPage").style.display = "block";
   slideIdx = 1;

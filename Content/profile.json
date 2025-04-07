@@ -36,10 +36,10 @@
   },
   "Project1": {
     "Title": "WinterArk",
-    "Desc": "A mobile app for Android version 15.0/Vanilla Ice Cream, tailored to typical gym goers. They are able to log and track workouts, send and receive friend request and message with them one-on-one!",
+    "Desc": "WinterArk is a mobile app for Android 15.0 (Vanilla Ice Cream) designed specifically for gym-goers. WinterArk was created using Flutter with Dart for our Front-End, and an AWS EC2 Instance for our Back-End. Users can log and track workouts, send friend requests, and chat one-on-one. The app also lets users quickly reuse previous workouts and review their history. Its standout feature is the Shared Dashboard & Gym Buddy system—allowing users to view their gym buddies’ progress with useful insights while connecting for support and motivation.",
     "GitHubRepo": "https://github.com/WinterArk",
-    "MainImage": "P4Main.png",
-    "DetailImages": [],
+    "MainImage": "WinterArk.png",
+    "DetailImages": ["P1Detail1.png", "P1Detail2.png", "P1Detail3.png", "P1Detail4.png"],
     "ProjectType": "Team",
     "TeamRole": "Librarian, Scrum Master, Fullstack Development"
   },
@@ -48,7 +48,7 @@
     "Desc": "A Node.js and Express-powered web application for task/list management. Features a responsive client interface for adding, editing, and deleting tasks, with an emphasis on non-blocking server interactions and error management.",
     "GitHubRepo": "https://github.com/wilsoni02/Node-Project",
     "MainImage": "P2Main.png",
-    "DetailImages": ["P2Detail1.png", "P2Detail2.png", "P2Detail3.png", "P2Detail4.png"],
+    "DetailImages": [],
     "ProjectType": "Individual",
     "TeamRole": ""
   },
@@ -65,8 +65,8 @@
     "Title": "Task-Manager-Project",
     "Desc": "A full-stack Task Manager web app built with HTML, CSS, JavaScript, Node.js, Express, and Mongoose, featuring real-time updates using Socket.io. Supports task CRUD operations and stores data in MongoDB Atlas, with a focus on intuitive UI and efficient functionality.",
     "GitHubRepo": "https://github.com/wilsoni02/Task-Manager-Project",
-    "MainImage": "P1Main.png",
-    "DetailImages": ["P1Detail1.png", "P1Detail2.png", "P1Detail3.png"],
+    "MainImage": "P4Main.png",
+    "DetailImages": [],
     "ProjectType": "Individual",
     "TeamRole": ""
   }
