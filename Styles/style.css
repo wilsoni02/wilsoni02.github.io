@@ -493,3 +493,13 @@ body {
 .project-image img:hover {
     transform: scale(1.03);
 }
+
+.read-more-btn {
+    background: none;
+    border: none;
+    color: #007ACC;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1em;
+    text-decoration: underline;
+}

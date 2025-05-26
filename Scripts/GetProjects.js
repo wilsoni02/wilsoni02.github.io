@@ -21,8 +21,21 @@ function updateHTML(configData) {
   if (configData.Project1.Title) {
     document.querySelector("#pfProject1Img").src = "Content/".concat(configData.Project1.MainImage);
     document.querySelector("#pfProject1Title").innerHTML = configData.Project1.Title;
-    document.querySelector("#pfProject1Desc").innerHTML = configData.Project1.Desc;
-    // Meta: Project Type and Role (if team project)
+    document.querySelector("#pfProject1Course").textContent = configData.Project1.Course;
+    document.querySelector("#pfProject1Period").textContent = configData.Project1.Period;
+    const proj1DescEl = document.querySelector("#pfProject1Desc");
+    const shortDesc = configData.Project1.Desc;
+    const fullDesc  = configData.Project1.FullDesc;
+    proj1DescEl.textContent = shortDesc;
+    const readMoreBtn = document.createElement("button");
+    readMoreBtn.textContent = "Read More";
+    readMoreBtn.classList.add("read-more-btn");
+    readMoreBtn.onclick = () => {
+      proj1DescEl.textContent = fullDesc;
+      readMoreBtn.style.display = "none";
+    };
+    proj1DescEl.after(readMoreBtn);
+
     if (configData.Project1.ProjectType) {
       let metaText = configData.Project1.ProjectType;
       if (configData.Project1.ProjectType.toLowerCase() === "team" && configData.Project1.TeamRole) {
@@ -34,7 +47,6 @@ function updateHTML(configData) {
     if (!configData.Project1.GitHubRepo) {
       document.querySelector("#pfProject1Repo").style.display = "none";
     }
-    // Only show "See More..." button if there are detail images
     if (configData.Project1.DetailImages.length < 1) {
       document.querySelector("#openProject1").style.display = "none";
     }
@@ -46,6 +58,8 @@ function updateHTML(configData) {
   if (configData.Project2.Title) {
     document.querySelector("#pfProject2Img").src = "Content/".concat(configData.Project2.MainImage);
     document.querySelector("#pfProject2Title").innerHTML = configData.Project2.Title;
+    document.querySelector("#pfProject2Course").textContent = configData.Project2.Course;
+    document.querySelector("#pfProject2Period").textContent = configData.Project2.Period;
     document.querySelector("#pfProject2Desc").innerHTML = configData.Project2.Desc;
     if (configData.Project2.ProjectType) {
       let metaText = configData.Project2.ProjectType;
@@ -68,6 +82,8 @@ function updateHTML(configData) {
   if (configData.Project3.Title) {
     document.querySelector("#pfProject3Img").src = "Content/".concat(configData.Project3.MainImage);
     document.querySelector("#pfProject3Title").innerHTML = configData.Project3.Title;
+    document.querySelector("#pfProject3Course").textContent = configData.Project3.Course;
+    document.querySelector("#pfProject3Period").textContent = configData.Project3.Period;
     document.querySelector("#pfProject3Desc").innerHTML = configData.Project3.Desc;
     if (configData.Project3.ProjectType) {
       let metaText = configData.Project3.ProjectType;
@@ -90,6 +106,8 @@ function updateHTML(configData) {
   if (configData.Project4.Title) {
     document.querySelector("#pfProject4Img").src = "Content/".concat(configData.Project4.MainImage);
     document.querySelector("#pfProject4Title").innerHTML = configData.Project4.Title;
+    document.querySelector("#pfProject4Course").textContent = configData.Project4.Course;
+    document.querySelector("#pfProject4Period").textContent = configData.Project4.Period;
     document.querySelector("#pfProject4Desc").innerHTML = configData.Project4.Desc;
     if (configData.Project4.ProjectType) {
       let metaText = configData.Project4.ProjectType;
