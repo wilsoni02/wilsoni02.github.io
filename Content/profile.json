@@ -1,12 +1,12 @@
 {
   "About": {
-    "Name": "Ian K. Wilson",
+    "Name": "Ian Wilson",
     "Currently": "Information Systems Student",
-    "Headshot": "student-portrait.jpg",
+    "Headshot": "student-portrait.JPEG",
     "Thumbnail": "student-logo.png",
     "Major": "Information Systems",
     "Graduation": "June 2025",
-    "AboutText": "I am an Information Systems major at Seattle Pacific University focused on technology troubleshooting and IT networking. With hands-on experience fixing devices and building custom PCs, I've become the go-to “IT guy” among my peers. My academic projects—including my Eagle Scout project—underscore my passion for solving tech challenges. Outside of tech, I enjoy camping and skiing, which sharpen my adaptability and teamwork. I’m excited to apply my skills to innovative IT projects and collaborate with like-minded professionals."
+    "AboutText": "I’m a dedicated Information Systems major at Seattle Pacific University specializing in IT networking and network engineering. Known as the go-to “IT guy,” I’ve built a strong troubleshooting background across macOS, Windows, Wi-Fi networks, and custom PC assembly. Leading my Eagle Scout service project deepened my technical expertise and leadership skills. Outside of tech, I’m an avid camper and skier—activities that sharpen resilience, adaptability, and teamwork—and I’m excited to apply these skills to innovative IT projects alongside like-minded professionals."
   },
   "Contact": {
     "EMail": "wilsoni@spu.edu",
@@ -41,7 +41,7 @@
 
     "GitHubRepo": "https://github.com/WinterArk",
     "MainImage": "WinterArk.png",
-    "DetailImages": ["P1Detail1.png", "P1Detail2.png", "P1Detail3.png", "P1Detail4.png"],
+    "DetailImages": ["WinterArkDemo.gif", "P1Detail1.png", "P1Detail2.png", "P1Detail3.png", "P1Detail4.png", "P1Detail5.png", "P1Detail6.png", "P1Detail7.png"],
     "ProjectType": "Team",
     "TeamRole": "Librarian, Scrum Master, Fullstack Development",
     "Course": "CSC 4151, 4152, 4898",
